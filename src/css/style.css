@@ -1,0 +1,23 @@
+
+.button{
+    -fx-border-color: blue;
+    -fx-font-size: 20;
+}
+
+.button:hover{
+    -fx-background-color: #ff8e09;
+    -fx-font-size: 20;
+}
+
+TextField{
+    -fx-font-size: 2.5em;
+    -fx-border-color: blue;
+}
+
+#resultBtn{
+    -fx-background-color: #92ff1a;
+}
+
+#resultBtn:hover{
+    -fx-background-color: #19d000;
+}

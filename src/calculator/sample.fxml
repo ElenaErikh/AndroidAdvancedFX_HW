@@ -1,0 +1,30 @@
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.GridPane?>
+<VBox fx:controller="calculator.Controller"
+      xmlns:fx="http://javafx.com/fxml">
+
+    <stylesheets>
+        <URL value="@/css/style.css"/>
+    </stylesheets>
+    <TextField fx:id="textField" prefHeight="120" />
+    <GridPane>
+        <Button GridPane.rowIndex="0" GridPane.columnIndex="0" text="C" onAction="#clean" prefHeight="80"
+                prefWidth="125"/>
+        <Button fx:id="resultBtn" GridPane.rowIndex="0" GridPane.columnIndex="1" text="=" onAction="#result"
+                prefHeight="80" prefWidth="125"/>
+        <Button GridPane.rowIndex="1" GridPane.columnIndex="0" text="+" onAction="#addition" prefHeight="100"
+                prefWidth="125" />
+        <Button GridPane.rowIndex="1" GridPane.columnIndex="1" text="-" onAction="#subtraction" prefHeight="100"
+                prefWidth="125"/>
+        <Button GridPane.rowIndex="2" GridPane.columnIndex="0" text="*" onAction="#multiply" prefHeight="100"
+                prefWidth="125"/>
+        <Button GridPane.rowIndex="2" GridPane.columnIndex="1" text="/" onAction="#division" prefHeight="100"
+                prefWidth="125"/>
+    </GridPane>
+
+</VBox >
