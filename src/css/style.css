@@ -1,12 +1,12 @@
 
 .button{
     -fx-border-color: blue;
-    -fx-font-size: 20;
+    -fx-font-size: 27;
 }
 
 .button:hover{
     -fx-background-color: #ff8e09;
-    -fx-font-size: 20;
+    -fx-font-size: 30;
 }
 
 TextField{

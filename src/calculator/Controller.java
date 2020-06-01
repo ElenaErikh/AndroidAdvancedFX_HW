@@ -1,17 +1,18 @@
 package calculator;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
 public class Controller {
     private double a;
     private double b;
-
     private char symbol;
 
     @FXML
     public TextField textField;
-
+    @FXML
+    private Button resultBtn;
 
     public void addition() {
         a = Double.parseDouble(textField.getText());
